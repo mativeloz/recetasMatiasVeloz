@@ -39,6 +39,11 @@ nav ul {
     gap: 50px;
 }
 
+.nav_transform:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
 nav ul li {
     list-style: none;
 }
