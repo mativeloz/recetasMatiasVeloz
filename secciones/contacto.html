@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="fondo">
+
+        <section class="container header">
+            <h1><span><a href="../index.html">ADRI COCINA</a></span></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="./recetas.html">RECETAS</a></li>
+                    <li><a href="./tienda-online.html">TIENDA ONLINE</a></li>
+                    <li><a href="./sobre-mi.html">SOBRE MI</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+    <main class="fondo_general">
+        <div class="container texto">
+            <h1 class="titulo--principal">CONTACTO</h1>
+            <p>Podes comunicarte con nosotros por mensaje en nuestras redes sociales o completando el siguiente formato:
+            </p>
+        </div>
+
+        <form class="container formulario-contacto">
+            <fieldset class="texto_form">
+                <legend>CARGA TUS DATOS</legend>
+                <div>Hombre</div>
+                <input type="radio" name="sexo" value="Hombre">
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="Mujer">
+                <div>Prefiero no contestar</div>
+                <input type="radio" name="sexo" value="Prefiero no contestar">
+
+                <div class="datos_contacto">
+                    <label for="name">Ingresa tu nombre</label>
+                    <input type="text" name="name" placeholder="Pedro Gomez" required>
+                </div>
+
+                <div class="datos_contacto">
+                    <label for="edad">Ingresa tu edad</label>
+                    <input type="number" name="edad" required>
+                </div>
+
+                <div class="datos_contacto">
+                    <label for="correo">Ingresa tu correo</label>
+                    <input type="email" name="correo" placeholder="pedrogomez@gmail.com" required>
+                </div>
+
+                <div>
+                    <textarea name="" cols="30" rows="10" placeholder="DEJANOS TU COMENTARIO"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer class="fondo">
+        <div class="container footer-contenedor">
+            <h3>SEGUINOS EN NUESTRAS REDES</h3>
+            <ul class="footer-contenedor_ul">
+                <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">TWITTER</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
+            </ul>
+            <p class="texto-footer">&copy Matias Veloz - CoderHouse</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
