@@ -21,12 +21,25 @@
     background-color: black;
 }
 
+.bg-propio{
+    background-color: black;
+}
+
+.bg-button{
+    background-color: #eed3b6!important;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     color: white;
+}
+
+.adri-cocina a {
+    color: #eed3b6;
+    text-decoration: none;
 }
 
 header span a {
@@ -48,6 +61,14 @@ nav ul li {
     list-style: none;
 }
 
+.navbar-nav li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 nav ul li a {
     text-decoration: none;
     cursor: pointer;
@@ -65,7 +86,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .hero h2 {
@@ -178,6 +199,7 @@ img {
     padding: 1rem;
 }
 
+
 /* //////////////////////////////////RECETAS////////////////////////////////////////// */
 
 
@@ -241,7 +263,7 @@ img {
 
 /* MEDIA QUERYS */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .principal_recetas {
         flex-direction: column;
     }
@@ -255,5 +277,12 @@ img {
 
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .cards_productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

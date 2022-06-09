@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linkeo de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Linkeo de CSS -->
     <link rel="stylesheet" href="./style/style.css">
     <title>Cocina-Recetas</title>
 </head>
@@ -13,15 +17,25 @@
     <header class="fondo">
 
         <section class="container header">
-            <h1><span><a href="./index.html">ADRI COCINA</a></span></h1>
-            <nav>
-                <ul>
-                    <li class="nav_transform"><a href="./index.html" >INICIO</a></li>
-                    <li class="nav_transform"><a href="./secciones/recetas.html">RECETAS</a></li>
-                    <li class="nav_transform"><a href="./secciones/tienda-online.html">TIENDA ONLINE</a></li>
-                    <li class="nav_transform"><a href="./secciones/sobre-mi.html">SOBRE MI</a></li>
-                    <li class="nav_transform"><a href="./secciones/contacto.html">CONTACTO</a></li>
-                </ul>
+            <h1><span class="adri-cocina"><a href="./index.html">ADRI COCINA</a></span></h1>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-propio">
+                <div class="container-fluid">
+                    <button class="navbar-toggler bg-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav_transform"><a href="./index.html">INICIO</a></li>
+                            <li class="nav_transform"><a href="./secciones/recetas.html">RECETAS</a></li>
+                            <li class="nav_transform"><a href="./secciones/tienda-online.html">TIENDA ONLINE</a></li>
+                            <li class="nav_transform"><a href="./secciones/sobre-mi.html">SOBRE MI</a></li>
+                            <li class="nav_transform"><a href="./secciones/contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </section>
 
@@ -37,10 +51,10 @@
 
     <main class="principal">
 
-        <section class="container">
+        <section class="container ">
             <h2>NUESTROS PRODUCTOS</h2>
 
-            <div class="cards">
+            <div class="cards cards_productos">
                 <div class="card">
                     <figure class="card_img">
                         <img class="img" src="./img/alfajores.jpg" alt="Pastafrola">
@@ -86,6 +100,11 @@
             <p class="texto-footer">&copy Matias Veloz - CoderHouse</p>
         </div>
     </footer>
+
+    <!-- Linkeo de JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
