@@ -261,7 +261,7 @@ img {
     align-items: center;
   }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 465px) {
   .container {
     width: 100vw;
   }
@@ -269,5 +269,36 @@ img {
 @media screen and (max-width: 423px) {
   .hero {
     text-align: center;
+  }
+}
+@media screen and (max-width: 416px) {
+  .footer-contenedor {
+    grid-template-columns: none;
+  }
+
+  .adri-cocina a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .adri-cocina a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .button {
+    margin: 5px;
+  }
+
+  .datos_contacto {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 512px) {
+  .img2 {
+    width: 300px;
+    height: 300px;
+    padding: 3px;
   }
 }/*# sourceMappingURL=style.css.map */
