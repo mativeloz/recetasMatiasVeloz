@@ -1,0 +1,33 @@
+@media screen and (max-width: 1166px) {
+  .principal_recetas {
+    flex-direction: column;
+  }
+
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cards_productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 415px) {
+  .container {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 423px) {
+  .hero {
+    text-align: center;
+  }
+}/*# sourceMappingURL=mediaquery.css.map */
