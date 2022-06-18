@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+.adri-cocina a {
+  color: #eed3b6;
+  text-decoration: none;
+  font-size: 40px;
+}
+
 .bg-propio {
   background-color: black;
 }
@@ -116,6 +122,22 @@ img {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 11px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
 }
 
 .div-container {
