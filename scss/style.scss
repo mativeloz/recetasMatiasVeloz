@@ -1,0 +1,83 @@
+@import "./misc/variables";
+@import "./misc/normalize";
+@import "./pages/home";
+@import "./pages/sobre-mi.scss";
+@import "./pages/tienda.scss";
+@import "./pages/recetas.scss";
+@import "./pages/contacto.scss";
+@import "./partials/footer";
+@import "./partials/header";
+
+.button {
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 11px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.cards {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 1166px) {
+    .principal_recetas {
+        flex-direction: column;
+    }
+
+    .tienda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cards_productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .container{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 423px){
+    .hero{
+        text-align: center;
+    }
+}

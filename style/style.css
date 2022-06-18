@@ -1,259 +1,249 @@
-/* @font-face {
-    font-family: 'Nirmala';
-    src: url(../fonts/Nirmala\ Trial.otf);
-} */
-
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.container {
-    max-width: 1150px;
-    margin: 0 auto;
+.bg-propio {
+  background-color: black;
 }
 
-.fondo_general {
-    background-color: #eed3b6;
-}
-
-.fondo {
-    background-color: black;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    color: white;
-}
-
-header span a {
-    color: #eed3b6;
-    text-decoration: none;
+.bg-button {
+  background-color: #eed3b6 !important;
 }
 
 nav ul {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
-
-.nav_transform:hover{
-    transform: scale(1.1);
-    transition: all 2s;
-}
-
 nav ul li {
-    list-style: none;
+  list-style: none;
 }
-
-nav ul li a {
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
-    font-weight: 500;
-    font-size: 20px;
+nav ul li li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .hero {
-    background-color: #eed3b6;
-    height: 100vh;
-    color: black;
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+  background-color: #eed3b6;
+  height: 100vh;
+  color: black;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
 }
-
 .hero h2 {
-    font-size: 40px;
-    margin-top: 100px;
+  font-size: 40px;
+  margin-top: 100px;
 }
-
 .hero p {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 30px;
-    font-weight: 200px;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 200px;
 }
 
-.button {
-    border-radius: 15px;
-    border: 1px solid black;
-    cursor: pointer;
-    background-color: transparent;
-    font-size: 15px;
-    padding: 11px;
-    font-weight: 600;
+.navbar-nav li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-button:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid black;
+.fondo_general {
+  background-color: #eed3b6;
 }
 
-.cards {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
+.fondo {
+  background-color: black;
 }
 
-.card {
-    width: 350px;
-    height: auto;
-    border: 1px solid black;
-    background-color: white;
-    text-align: center;
-    border-radius: 5px;
-
+.nav_transform:hover {
+  transform: scale(1.1);
+  transition: all 2s;
 }
 
 img {
-    width: 100%;
-}
-
-.footer-contenedor {
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    font-size: 20px;
-    grid-gap: 1rem;
-}
-
-.footer-contenedor_ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer-contenedor_ul li {
-    list-style: none;
+  width: 100%;
 }
 
 .principal {
-    padding: 1rem;
+  padding: 1rem;
 }
-
-
-/* //////////////////////////////////CONTACTO////////////////////////////////////////// */
-
-.datos_contacto {
-    display: flex;
-    gap: 10px;
-    margin: 5px 0;
-    align-items: center;
-}
-
-.texto p {
-    font-size: 30px;
-}
-
-.texto_form {
-    font-size: 20px;
-    padding: 5px;
-}
-
-.footer-contenedor-contacto {
-    margin-top: 5px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    align-items: center;
-    height: 100px;
-}
-
-.formulario-contacto {
-    padding: 1rem;
-}
-
-/* //////////////////////////////////RECETAS////////////////////////////////////////// */
-
-
-.div-container {
-    font-size: 20px;
-}
-
-.div-container ul li {
-    margin: 10px 0;
-    list-style: none;
-}
-
-.div-container ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-
-.lista-ingredientes li {
-    list-style: none;
-    margin: 5px 0;
-}
-
-.principal_recetas {
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.div_transform:hover {
-    transform: scale(1.1);
-    transition: all 2s;
-}
-
-/* //////////////////////////////////SOBRE-MI////////////////////////////////////////// */
 
 .img2 {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
-/* //////////////////////////////////TIENDA////////////////////////////////////////// */
-
 .tienda {
-    font-size: 20px;
-    padding: 10px;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 .img3 {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+.div-container {
+  font-size: 20px;
+}
+.div-container ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+.div-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.lista-ingredientes li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.principal_recetas {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div_transform:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.datos_contacto {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0;
+  align-items: center;
+}
+
+.texto p {
+  font-size: 30px;
+}
+
+.texto_form {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.formulario-contacto {
+  padding: 1rem;
+}
+
+.footer-contenedor {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  font-size: 20px;
+  grid-gap: 1rem;
+}
+
+.footer-contenedor_ul li {
+  list-style: none;
+}
+.footer-contenedor_ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: white;
+}
+.header span a {
+  color: #eed3b6;
+  text-decoration: none;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 11px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.cards {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
 
 /* MEDIA QUERYS */
+@media screen and (max-width: 1166px) {
+  .principal_recetas {
+    flex-direction: column;
+  }
 
-@media screen and (max-width: 500px) {
-    .principal_recetas {
-        flex-direction: column;
-    }
+  .tienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .tienda {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 
-    .grid {
-        grid-template-columns: 1fr;
-    }
+  .cards_productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+@media screen and (max-width: 415px) {
+  .container {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 423px) {
+  .hero {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+.div-container {
+    font-size: 20px;
+    ul li {
+        margin: 10px 0;
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.lista-ingredientes li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.principal_recetas {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_transform:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
