@@ -37,20 +37,26 @@ nav ul li li a {
   color: black;
   background-image: url(../img/fondo.jpg);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: start;
+  justify-content: end;
 }
 .hero h2 {
+  padding-top: 10rem;
+  margin-left: 15rem;
+  grid-column: 2/3;
   font-size: 40px;
   margin-top: 100px;
 }
 .hero p {
+  padding: 5rem;
+  grid-column: 2/3;
   text-align: center;
-  margin: 20px 0;
   font-size: 30px;
   font-weight: 200px;
+  font-weight: bolder;
+  margin-bottom: 15rem;
 }
 
 .navbar-nav li a {
@@ -63,10 +69,6 @@ nav ul li li a {
 
 .fondo_general {
   background-color: #eed3b6;
-}
-
-.fondo {
-  background-color: black;
 }
 
 .nav_transform:hover {
@@ -124,22 +126,6 @@ img {
      object-fit: cover;
 }
 
-.button {
-  border-radius: 15px;
-  border: 1px solid black;
-  cursor: pointer;
-  background-color: transparent;
-  font-size: 15px;
-  padding: 11px;
-  font-weight: 600;
-}
-
-.button:hover {
-  background-color: black;
-  color: white;
-  border: 1px solid black;
-}
-
 .div-container {
   font-size: 20px;
 }
@@ -160,7 +146,6 @@ img {
 .principal_recetas {
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
 }
 
 .div_transform:hover {
@@ -207,6 +192,10 @@ img {
   padding: 1rem;
 }
 
+.fondo {
+  background-color: black;
+}
+
 .footer-contenedor {
   padding: 1rem;
   background-color: black;
@@ -238,6 +227,11 @@ img {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1440px) {
+  .hero h2 {
+    margin-left: 10rem;
+  }
+}
 @media screen and (max-width: 1166px) {
   .principal_recetas {
     flex-direction: column;
@@ -261,9 +255,66 @@ img {
     align-items: center;
   }
 }
+@media screen and (max-width: 1024px) {
+  .adri-cocina a {
+    font-size: 30px;
+  }
+
+  .hero h2 {
+    padding-top: 2rem;
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 902px) {
+  .hero h2 {
+    padding-top: 5rem;
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 849px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 608px) {
+  .hero h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .hero p {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  .img2 {
+    width: 300px;
+    height: 300px;
+    padding: 3px;
+  }
+}
 @media screen and (max-width: 465px) {
   .container {
     width: 100vw;
+  }
+}
+@media screen and (max-width: 465px) {
+  .hero p {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .button {
+    margin: 5px;
+  }
+
+  .datos_contacto {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }
 @media screen and (max-width: 423px) {
@@ -280,25 +331,32 @@ img {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 1024px) {
-  .adri-cocina a {
-    font-size: 30px;
-  }
+.button__tienda, .button__home {
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
-@media screen and (max-width: 425px) {
-  .button {
-    margin: 5px;
-  }
 
-  .datos_contacto {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
+.button__tienda:hover {
+  background-color: black;
+  color: white;
 }
-@media screen and (max-width: 512px) {
-  .img2 {
-    width: 300px;
-    height: 300px;
-    padding: 3px;
-  }
+.button__home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.button__home:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

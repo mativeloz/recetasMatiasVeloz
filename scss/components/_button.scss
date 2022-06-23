@@ -1,0 +1,41 @@
+%button {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.button{
+    &__tienda, &__home {
+        @extend %button;
+    }
+
+    &__tienda{
+
+        &:hover{
+            background-color: $black;
+            color: $white;
+        }
+    }
+
+    &__home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vh;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        &:hover{
+            background-color: $black;
+            color: $white;
+        }
+    }
+}
+
