@@ -1,0 +1,13 @@
+$redes: (
+    twitter:#55aCee,
+    facebook: #3a5798,
+    youtube: rgb(185, 13, 13),
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+        padding: 10px;
+        margin: 5px 0;
+    }
+}

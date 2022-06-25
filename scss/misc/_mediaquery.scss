@@ -74,12 +74,6 @@
 }
 
 @media screen and (max-width: 465px){
-    .container{
-        width: 100vw;
-    }
-}
-
-@media screen and (max-width: 465px){
     .hero p{
         padding: 1rem;
     }
@@ -92,12 +86,6 @@
     .datos_contacto{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 423px){
-    .hero{
-        text-align: center;
     }
 }
 

@@ -1,23 +1,22 @@
 .fondo {
     background-color: $black;
 
-}
-
-.footer-contenedor {
-    padding: 1rem;
-    background-color: $black;
-    color: $white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    font-size: 20px;
-    grid-gap: 1rem;
-}
-
-.footer-contenedor_ul li {
-    list-style: none;
-    a {
-        text-decoration: none;
+    .footer-contenedor {
+        @include centrar-footer;
+        padding: 1rem;
+        background-color: $black;
         color: $white;
+        &_ul li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $white;
+
+                &:hover{
+                    background-color: $primary-color;
+                }
+            }
+        }
     }
 }
