@@ -1,5 +1,5 @@
-@media screen and (max-width: 1440px){
-    .hero h2{
+@media screen and (max-width: 1440px) {
+    .hero h2 {
         margin-left: 10rem;
     }
 }
@@ -20,7 +20,7 @@
         grid-template-columns: 1fr;
     }
 
-    .cards_productos{
+    .cards_productos {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -28,25 +28,35 @@
     }
 }
 
-@media screen and (max-width: 1024px){
-    .adri-cocina a{
+@media screen and (max-width: 1024px) {
+    .adri-cocina a {
         font-size: 30px;
     }
-    .hero h2{
+
+    .hero h2 {
         padding-top: 2rem;
         margin-left: 5rem;
     }
 }
 
-@media screen and (max-width: 902px){
+@media screen and (max-width: 991px) {
+    .header {
+        height: auto;
+    }
+    nav ul{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 902px) {
     .hero h2 {
         padding-top: 5rem;
         margin-left: 6rem;
     }
 }
 
-@media screen and (max-width: 849px){
-    .hero{
+@media screen and (max-width: 849px) {
+    .hero {
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -54,51 +64,59 @@
     }
 }
 
-@media screen and (max-width: 608px){
-    .hero h2{
+@media screen and (max-width: 608px) {
+    .hero h2 {
         font-size: 35px;
         text-align: center;
         margin-left: 10px;
     }
-    .hero p{
+
+    .hero p {
         margin-bottom: 2rem;
     }
 }
 
-@media screen and (max-width: 512px){
-    .img2{
+@media screen and (max-width: 512px) {
+    .img2 {
         width: 300px;
         height: 300px;
         padding: 3px;
     }
 }
 
-@media screen and (max-width: 465px){
-    .hero p{
+@media screen and (max-width: 465px) {
+    .hero p {
         padding: 1rem;
     }
 }
 
-@media screen and (max-width: 425px){
-    .button{
+@media screen and (max-width: 428px) {
+    .button__tienda {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button {
         margin: 5px;
     }
-    .datos_contacto{
+
+    .datos_contacto {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 416px) {
-    .footer-contenedor{
-        grid-template-columns: none;
+    .fondo .footer-contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
     }
-    .adri-cocina a{
+
+    .adri-cocina a {
         font-size: 30px;
     }
 }
-
-
-
-
-

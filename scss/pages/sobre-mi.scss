@@ -1,4 +1,13 @@
 .img2 {
     width: 500px;
     height: 500px;
+    margin-bottom: 1rem;
+}
+
+.contenido-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
